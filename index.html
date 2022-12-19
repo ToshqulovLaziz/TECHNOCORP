@@ -1,20 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Starter Scss</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header></header>
-
-    <!-- MAIN -->
-    <main></main>
-
-    <!-- FOOTER -->
-    <footer></footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Technocrop</title>
+</head>
+<body>
+  <!-- HEADER START-->
+  <header class="sit-header">
+    <div class="container">
+      <div class="site-header__wrapper">
+        <div class="site-header__start">
+          <a class="site-header__link" href="./index.html">
+            <img class="site-header__logo" 
+                 src="./images/icons/btn-logo.svg" 
+                 alt="hamburg-btn"
+                 width="34"
+                 height="22">
+            <img class="site-header__logo" 
+                 src="./images/logo.svg" 
+                 alt="logo"
+                 width="250"
+                 height="40">
+          </a>
+          <nav class="ste-nav">
+            <ul class="sit-nav__list">
+              <li class="sit-nav__item">
+                <a class="sit-nav__link" href="#">Xizmatlar</a>
+              </li>
+              <li class="sit-nav__item">
+                <a class="sit-nav__link" href="#">Loyihalar</a>
+              </li>
+              <li class="sit-nav__item">
+                <a class="sit-nav__link" href="#">Biz haqimizda</a>
+              </li>
+              <li class="sit-nav__item">
+                <a class="sit-nav__link" href="#">
+                  <img class="site-nav__img" 
+                       src="./images/icons/video-icon.svg" 
+                       alt="video"
+                       width="20"
+                       height="20">
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="site-header__end">
+          <a class="site-header__contakt" href="#">+998 (71) 299-86-88</a>
+          <img class="site-headeer__pic" 
+               src="./images/icons/search.svg" 
+               alt="qidiruv"
+               width="16"
+               height="16">
+          <button class="site-header__btn" type="button">Savol berish</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- HEADER END-->
+  
+  <!-- MAIN START-->
+  <main class="site-main">
+    <section class="site-hero">
+      <div class="container">
+        <div class="site-hero__wrapper">
+          <div class="site-hero__start">
+            <h1 class="site-hero__title">
+              Biz biznesingizni internet orqali rivojlantirishga yordam beramiz
+            </h1>
+            <p class="site-hero__text">
+              Lorem ipsum dolor sit amet consectetur 
+              adipisicing elit. Rem aliquid debitis vitae
+            </p>
+            <input class="site-hero__input" type="text" placeholder="+998 (__) __-__-__">
+            <button class="site-hero__btn" type="button">
+              Menga qo’ng’roq qoling
+            </button>
+            <p class="site-hero__desc">
+              Elektron tijoratning samarali yechimlari
+            </p>
+          </div>
+          <div class="site-hero__end">
+            <img class="site-hero__pic" 
+                 src="./images/hero-pic.png" 
+                 srcset="./images/hero-pic.png 1x, ./images/hero-pic@2x.png 2x"
+                 alt="imag"
+                 width="597"
+                 height="615">
+            <h2 class="site-hero__subtitle">
+              Veb dasturlash
+            </h2>
+            <p class="site-hero__end--text">
+              Xizmati
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- MAIN END-->
+  
+  <!-- FOOTER START-->
+  <footer></footer>
+  <!-- FOOTER END-->
+</body>
 </html>
